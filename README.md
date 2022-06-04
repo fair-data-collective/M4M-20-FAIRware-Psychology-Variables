@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/fair-data-collective/M4M-20-FAIRware-Psychology-Variables/workflows/Sheet2RDF/badge.svg)](https://github.com/fair-data-collective/M4M-20-FAIRware-Psychology-Variables/actions?query=workflow%3ASheet2RDF)
 
-# [Psychology Subjects](http://purl.org/m4m20/variables/)
+# [Psychology Variables](http://purl.org/m4m20/variables/)
 
 Controlled vocabularies allow an accurate and controlled approach in describing physical and digital assets (e.g., data). One of such controlled vocabulary is **Psychology Variables**. This controlled vocabulary is produced in Metadata 4 Machine (M4M) Workshop 20 (M4M.20 FAIRware Psychology), which is one of deliverables of [FAIRware project](https://researchonresearch.org/projects#!/tab/273951116-3) funded by [RoRi](https://researchonresearch.org/).
 
