@@ -100,7 +100,7 @@ sosa:madeBySensor
   dct:created "enter date of creation in the form bellow"@en;
   dct:description "Vocabulary description"@en;
   dct:hasVersion "0.1.1"@en;
-  dct:modified "2022-06-04T19:53:58+00:00"@en;
+  dct:modified "2022-06-04T21:45:37+00:00"@en;
   dct:rights <https://spdx.org/licenses/CC0-1.0>;
   dct:title "Vocabulary title"@en;
   skos:hasTopConcept vocab:1000, vocab:1001, vocab:1002, vocab:1003, vocab:1004, vocab:1005,
