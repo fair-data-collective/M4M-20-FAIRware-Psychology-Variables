@@ -82,10 +82,10 @@ sosa:madeBySensor
   dct:created "2022-06-01T00:00:00+00:00"^^xsd:datetime;
   dct:description "Vocabulary description"@en;
   dct:hasVersion "0.1.0";
-  dct:modified "2022-06-20T06:20:30+00:00"^^xsd:datetime;
+  dct:modified "2022-06-20T10:51:30+00:00"^^xsd:datetime;
   dct:rights <https://spdx.org/licenses/CC0-1.0>;
   dct:title "Vocabulary title"@en;
-  skos:hasTopConcept vocab:1000;
+  skos:hasTopConcept vocab:1000, vocab:1004;
   foaf:homepage "URL to the community developing vocab"@en .
 
 vocab:1000 a skos:Concept;
@@ -93,7 +93,7 @@ vocab:1000 a skos:Concept;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-06-20"^^xsd:date;
   skos:inScheme <http://purl.org/m4m20/variables>;
-  skos:narrower vocab:1001;
+  skos:narrower vocab:1001, vocab:1002, vocab:1003;
   skos:prefLabel "reaction time"@en;
   skos:topConceptOf <http://purl.org/m4m20/variables> .
 
@@ -104,3 +104,34 @@ vocab:1001 a skos:Concept;
   skos:broader vocab:1000;
   skos:inScheme <http://purl.org/m4m20/variables>;
   skos:prefLabel "reaction time at prospective memory task"@en .
+
+vocab:1002 a skos:Concept;
+  skos:broader vocab:1000;
+  skos:inScheme <http://purl.org/m4m20/variables>;
+  skos:prefLabel "reaction time at lexical decision task (without prospective memory component)"@en .
+
+vocab:1003 a skos:Concept;
+  skos:broader vocab:1000;
+  skos:inScheme <http://purl.org/m4m20/variables>;
+  skos:prefLabel "reaction time at lexical decision task (with prospective memory component)"@en .
+
+vocab:1004 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m20/variables>;
+  skos:narrower vocab:1005, vocab:1006, vocab:1007;
+  skos:prefLabel "accuracy"@en;
+  skos:topConceptOf <http://purl.org/m4m20/variables> .
+
+vocab:1005 a skos:Concept;
+  skos:broader vocab:1004;
+  skos:inScheme <http://purl.org/m4m20/variables>;
+  skos:prefLabel "accuracy at prospective memory task"@en .
+
+vocab:1006 a skos:Concept;
+  skos:broader vocab:1004;
+  skos:inScheme <http://purl.org/m4m20/variables>;
+  skos:prefLabel "accuracy at lexical decision task (without prospective memory component)"@en .
+
+vocab:1007 a skos:Concept;
+  skos:broader vocab:1004;
+  skos:inScheme <http://purl.org/m4m20/variables>;
+  skos:prefLabel "accuracy at lexical decision task (with prospective memory component)"@en .

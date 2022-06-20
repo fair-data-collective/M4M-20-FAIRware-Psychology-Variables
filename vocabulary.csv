@@ -20,9 +20,15 @@ dct:creator,,An ORCID ID of the vocabulary creator
 dct:rights,https://spdx.org/licenses/CC0-1.0,License under which the vocabulary is provided
 dct:hasVersion^^xsd:string,0.1.0,Vocabulary version
 dct:created^^xsd:datetime,2022-06-01T00:00:00+00:00,Date when vocabulary was initially created
-dct:modified^^xsd:datetime,2022-06-20T06:20:30+00:00,Automatic update when vocabulary is updated
+dct:modified^^xsd:datetime,2022-06-20T10:51:30+00:00,Automatic update when vocabulary is updated
 Definition of terms
 
 Identifier,"skos:prefLabel@en(id=""label"")","skos:altLabel(separator="","")",skos:definition@en,"dct:source(separator="","")","skos:broader(lookupColumn=""skos:prefLabel"" separator="","")","skos:exactMatch(separator="","")","skos:closeMatch(separator="","")",iop:hasProperty,iop:hasObjectOfInterest,iop:hasMatrix,"iop:hasContextObject(separator="","")","iop:hasConstraint(separator="","")","puv:statistic(separator="","")","puv:usesMethod(separator="","")","sosa:madeBySensor(separator="","")","puv:uom(separator="","")",owl:deprecated^^xsd:boolean,skos:editorialNote@en,dct:modified^^xsd:date,dct:created^^xsd:date,"dct:creator(separator="","")","dct:contributor(separator="","")"
 vocab:1000,reaction time,,,,,,,,,,,,,,,,,,2022-06-20,2022-06-20,0000-0003-2195-3997
 vocab:1001,reaction time at prospective memory task,,,,reaction time,,,,,,,,,,,,,,2022-06-20,2022-06-20,0000-0003-2195-3997
+vocab:1002,reaction time at lexical decision task (without prospective memory component),,,,reaction time
+vocab:1003,reaction time at lexical decision task (with prospective memory component),,,,reaction time
+vocab:1004,accuracy
+vocab:1005,accuracy at prospective memory task,,,,accuracy
+vocab:1006,accuracy at lexical decision task (without prospective memory component),,,,accuracy
+vocab:1007,accuracy at lexical decision task (with prospective memory component),,,,accuracy
